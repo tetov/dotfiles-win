@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/ralish/PSDotFiles/main/Metadata.xsd">
+    <FriendlyName>VcXSrv startup files</FriendlyName>
+    <Detection>
+        <Method>FindInPath</Method>
+		<FindInPath>xlaunch</FindInPath>
+	</Detection>
+    <InstallPath>
+        <SpecialFolder>Startup</SpecialFolder>
+    </InstallPath>
+</Component>
