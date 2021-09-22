@@ -1,5 +1,6 @@
 [credential]
 	helper = manager-core
+
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -8,7 +9,7 @@
 	
 [user]
 	name = Anton Tetov
-	email = anton@tetov.se
+	email = anton@tetov.xyz
 	signingkey = 2B4D0035AFF0F7DACE5B29D7337DDB574A8834DB
 	
 [alias]
@@ -28,38 +29,38 @@
   
 [push]
   default = simple
-  # "push the current branch back to the branch whose changes are usually integrated into the current branch"
-  # "refuse to push if the upstream branch’s name is different from the local one"
   # https://git-scm.com/docs/git-config#git-config-pushdefault
 
   followTags = true
-  # Because I get sick of telling git to do it manually
   # https://git-scm.com/docs/git-config#git-config-pushfollowTags
-  [status]
+
+[status]
   showUntrackedFiles = all
-  # Sometimes a newly-added folder, since it's only one line in git status, can slip under the radar.
   # https://git-scm.com/docs/git-config#git-config-statusshowUntrackedFiles
 
 [gpg]
-	program = C:\\Users\\a\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin\\gpg.exe
+  program = #"%USERPROFILE%\\program\\scoop\\apps\\gpg4win\\current\\GnuPG\\bin\\gpg.exe"
+  program = "C:/Users/an6802jo/program/scoop/apps/gpg4win/current/GnuPG/bin/gpg.exe"
+
 
 [pull]
   rebase = true
 
 [diff]
 	tool = vsdiffmerge
+
 [difftool]
 	prompt = true
-[difftool "vsdiffmerge"]
-	cmd = \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\vsdiffmerge.exe\" \"$LOCAL\" \"$REMOTE\" //t
-	keepBackup = false
+
 [merge]
 	tool = vsdiffmerge
+
 [mergetool]
 	prompt = true
+
 [mergetool "vsdiffmerge"]
-	cmd = \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TeamFoundation\\Team Explorer\\vsdiffmerge.exe\" \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\" //m
 	keepBackup = false
 	trustExitCode = true
+
 [core]
-	excludesFile = C:\\Users\\a\\.gitignore
+	excludesFile ="C:\\Users\\an6802jo\\.gitignore"
