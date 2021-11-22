@@ -39,8 +39,7 @@
   # https://git-scm.com/docs/git-config#git-config-statusshowUntrackedFiles
 
 [gpg]
-  program = "C:/Users/an6802jo/program/scoop/apps/gpg4win/current/GnuPG/bin/gpg.exe"
-
+  program = "C:/Users/tetov/scoop/apps/gpg4win/current/GnuPG/bin/gpg.exe"
 
 [pull]
   rebase = true
@@ -62,4 +61,4 @@
 	trustExitCode = true
 
 [core]
-	excludesFile ="C:/Users/an6802jo/.gitignore"
+	excludesFile ="C:/Users/tetov/.gitignore"

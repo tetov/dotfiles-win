@@ -24,11 +24,11 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": true,
-    "defaultProfile": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
+    "defaultProfile": "{2fd0f61c-77a0-4a95-ba7b-c9c2b47557d4}",
     "profiles": {
         "defaults": {
             "colorScheme": "One Half Dark",
-            "bellStyle": "visual",
+            "bellStyle": ["window", "taskbar"],
             "fontFace": "FiraCode NF",
             "startingDirectory": "%USERPROFILE%"
         },
@@ -46,9 +46,10 @@
                 "source": "Windows.Terminal.Wsl"
             },
             {
-                "colorScheme": "Campbell",
-                "commandline": "C:\\Users\\an6802jo\\program\\scoop\\apps\\pwsh\\current\\pwsh.exe",
-                "icon": "C:\\Users\\an6802jo\\program\\scoop\\apps\\pwsh\\current\\assets\\Square150x150Logo.png",
+                "guid": "{2fd0f61c-77a0-4a95-ba7b-c9c2b47557d4}",
+		"colorScheme": "Campbell",
+                "commandline": "C:\\Users\\tetov\\scoop\\apps\\pwsh\\current\\pwsh.exe",
+                "icon": "C:\\Users\\tetov\\scoop\\apps\\pwsh\\current\\assets\\Square150x150Logo.png",
                 "name": "pwsh"
             },
             {

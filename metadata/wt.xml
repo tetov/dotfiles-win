@@ -6,6 +6,6 @@
 	</Detection>
     <InstallPath>
         <SpecialFolder>LocalApplicationData</SpecialFolder>
-		<Destination>Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState</Destination>
+		<Destination>Microsoft\Windows Terminal</Destination>
     </InstallPath>
 </Component>
