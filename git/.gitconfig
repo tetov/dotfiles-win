@@ -62,3 +62,6 @@
 
 [core]
 	excludesFile ="C:/Users/tetov/.gitignore"
+  
+[credential "helperselector"]
+	selected = manager-core
