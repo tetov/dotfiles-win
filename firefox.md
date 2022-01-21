@@ -1,9 +1,17 @@
-# userChrome.css
+# Manual settings
+
+## `about:config`
+| Setting 						| Value  |
+| ----------------------------------------------------- | ------ |
+| `toolkit.legacyUserProfileCustomizations.stylesheets` | `true` |
+| `browser.link.open_newwindow.restriction`		| `0`    |
+
+Regarding `browser.link.*` see <https://support.mozilla.org/en-US/questions/1258193>.
+
+## `userChrome.css`
 
 From [treestyletab | Code snippets for custom style rules](https://github.com/piroor/treestyletab/wiki/Code-snippets-for-custom-style-rules#for-userchromecss).
 
-1. `about:config`
-    * Set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`
 1. `about:support`
     * Profile Folder
     * Open Folder

@@ -1,16 +1,16 @@
-[credential]
-	helper = manager-core
-
+[core]
+  excludesFile ="C:/Users/tetov/.gitignore"
+  autocrlf = true
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
 	
 [user]
-	name = Anton Tetov
-	email = anton@tetov.xyz
-	signingkey = 2B4D0035AFF0F7DACE5B29D7337DDB574A8834DB
+  name = Anton Tetov
+  email = anton@tetov.se
+  signingkey = 2B4D0035AFF0F7DACE5B29D7337DDB574A8834DB
 	
 [alias]
   stash-all = stash save --include-untracked
@@ -45,23 +45,23 @@
   rebase = true
 
 [diff]
-	tool = vsdiffmerge
+  tool = vsdiffmerge
 
 [difftool]
-	prompt = true
+  prompt = true
 
 [merge]
-	tool = vsdiffmerge
+  tool = vsdiffmerge
 
 [mergetool]
-	prompt = true
+  prompt = true
 
 [mergetool "vsdiffmerge"]
-	keepBackup = false
-	trustExitCode = true
+  keepBackup = false
+  trustExitCode = true
 
-[core]
-	excludesFile ="C:/Users/tetov/.gitignore"
-  
+[credential]
+	helper = !\"C:/Users/tetov/scoop/apps/git/2.34.1.windows.1/mingw64/libexec/git-core/git-credential-manager-core.exe\"
+
 [credential "helperselector"]
 	selected = manager-core
