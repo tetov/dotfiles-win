@@ -1,20 +1,15 @@
 {
+    "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    // Add custom actions and keybindings to this array.
-    // To unbind a key combination from your defaults.json, set the command to "unbound".
-    // To learn more about actions and keybindings, visit https://aka.ms/terminal-keybindings
-    "actions": [
-        // Press Ctrl+Shift+F to open the search box
+    "actions": 
+    [
         {
             "command": "find",
             "keys": "ctrl+shift+f"
         },
-        // Press Alt+Shift+D to open a new pane.
-        // - "split": "auto" makes this pane open in the direction that provides the most surface area.
-        // - "splitMode": "duplicate" makes the new pane use the focused pane's profile.
-        // To learn more about panes, visit https://aka.ms/terminal-panes
         {
-            "command": {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -25,43 +20,39 @@
     "copyFormatting": "none",
     "copyOnSelect": true,
     "defaultProfile": "{2fd0f61c-77a0-4a95-ba7b-c9c2b47557d4}",
-    "profiles": {
-        "defaults": {
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "bellStyle": 
+            [
+                "window",
+                "taskbar"
+            ],
             "colorScheme": "One Half Dark",
-            "bellStyle": ["window", "taskbar"],
-            "fontFace": "FiraCode NF",
+            "font": 
+            {
+                "face": "FiraCode NF"
+            },
             "startingDirectory": "%USERPROFILE%"
         },
-        "list": [
+        "list": 
+        [
             {
-                "guid": "{a5a97cb8-8961-5535-816d-772efe0c6a3f}",
-                "hidden": false,
-                "name": "Arch",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
-                "hidden": false,
-                "name": "Ubuntu-18.04",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{2fd0f61c-77a0-4a95-ba7b-c9c2b47557d4}",
-		"colorScheme": "Campbell",
+                "colorScheme": "Campbell",
                 "commandline": "C:\\Users\\tetov\\scoop\\apps\\pwsh\\current\\pwsh.exe",
+                "guid": "{2fd0f61c-77a0-4a95-ba7b-c9c2b47557d4}",
                 "icon": "C:\\Users\\tetov\\scoop\\apps\\pwsh\\current\\assets\\Square150x150Logo.png",
                 "name": "pwsh"
             },
             {
                 "colorScheme": "Campbell",
-                "commandline": "cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
             },
             {
                 "colorScheme": "Campbell Powershell",
-                "commandline": "powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": true,
                 "name": "Windows PowerShell"
@@ -74,13 +65,26 @@
             },
             {
                 "guid": "{190101b4-7fde-5219-90b2-0947ed51033f}",
+                "hidden": false,
                 "name": "fedora",
                 "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{53c99ae4-1409-5a3a-90d7-889ba1a743a8}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{d1d11630-14f6-5376-84de-77ed9bb20746}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
-            
         ]
     },
-    "schemes": [
+    "schemes": 
+    [
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",

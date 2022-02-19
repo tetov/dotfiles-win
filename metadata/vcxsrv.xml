@@ -3,9 +3,12 @@
     <FriendlyName>VcXSrv startup files</FriendlyName>
     <Detection>
         <Method>FindInPath</Method>
-		<FindInPath>xlaunch</FindInPath>
-	</Detection>
+        <FindInPath>xlaunch</FindInPath>
+    </Detection>
     <InstallPath>
         <SpecialFolder>Startup</SpecialFolder>
     </InstallPath>
+    <IgnorePaths>
+        <IgnorePath>config.xlaunch</IgnorePath>
+    </IgnorePaths>
 </Component>

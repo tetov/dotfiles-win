@@ -65,3 +65,5 @@
 
 [credential "helperselector"]
 	selected = manager-core
+[init]
+	defaultBranch = main

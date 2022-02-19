@@ -7,3 +7,40 @@ Import-Module 'C:\Users\tetov\scoop\apps\scoop\current\supporting\completion\Sco
 
 $DotFilesPath = "C:\Users\tetov\dotfiles"
 $DotFilesAutodetect = $true
+
+function gb() {
+    & git branch $args
+}
+
+function gco() {
+    & git checkout $args
+}
+
+function gr() {
+    & git remote $args
+}
+
+function ga() {
+    & git add $args
+}
+
+function gst() {
+    & git status
+}
+
+function gc() {
+    & git commit $args
+}
+
+function gcmsg() {
+    & git commit -m $args
+}
+
+
+
+
+
+
+
+
+
