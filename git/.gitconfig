@@ -1,6 +1,7 @@
 [core]
   excludesFile ="C:/Users/tetov/.gitignore"
   autocrlf = true
+	symlinks = true
 [filter "lfs"]
   clean = git-lfs clean -- %f
   smudge = git-lfs smudge -- %f
@@ -61,7 +62,7 @@
   trustExitCode = true
 
 [credential]
-	helper = !\"C:/Users/tetov/scoop/apps/git/2.34.1.windows.1/mingw64/libexec/git-core/git-credential-manager-core.exe\"
+	helper = !\"C:/Users/tetov/scoop/apps/git/2.35.1.windows.2/mingw64/libexec/git-core/git-credential-manager-core.exe\"
 
 [credential "helperselector"]
 	selected = manager-core

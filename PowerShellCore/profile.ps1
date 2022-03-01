@@ -36,11 +36,7 @@ function gcmsg() {
     & git commit -m $args
 }
 
-
-
-
-
-
-
-
+function v() {
+    & nvim $args
+}
 
