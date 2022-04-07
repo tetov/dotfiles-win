@@ -12,3 +12,5 @@ $uri = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
     "~\AppData\Local\nvim\autoload\plug.vim"
   )
 )
+
+powercfg.exe -attributes sub_processor perfboostmode -attrib_hide
