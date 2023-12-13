@@ -1,0 +1,81 @@
+[alias]
+	stash-all = stash save --include-untracked
+
+	glog = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
+
+	d = difftool
+
+	# https://stackoverflow.com/a/21857717
+	branch-cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
+
+[commit]
+	gpgSign = false
+
+[core]
+	autocrlf = input
+	quotePath = false
+
+[diff]
+	tool = ediff
+
+[diff "json"]
+	textconv = "cat \"$1\" | json_pp --json_opt=canonical,pretty,relaxed"
+
+[diff "image"]
+	command = 'git-imgdiff'
+
+[difftool "ediff"]
+	cmd = ~/bin/ediff.sh $LOCAL $REMOTE $MERGED
+
+[filter "kicad_project"]
+	clean = sed -E 's/^update=.*$/update=Date/'
+	smudge = cat
+
+[filter "kicad_sch"]
+	clean = "sed -E 's/#(PWR|FLG)[0-9]+/#\\1?/'"
+	smudge = cat
+
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+
+[gpg]
+	program = gpg
+
+[init]
+	defaultBranch = main
+
+[merge]
+	conflictstyle = diff3
+[push]
+	default = simple
+	followTags = true
+	autoSetupRemote = true
+
+[status]
+	showUntrackedFiles = all
+
+[pull]
+	rebase = true
+
+[recieve]
+	fsckObjects = false
+
+[submodule]
+	recurse = true
+
+[transfer]
+	fsckObjects = false
+
+[user]
+	name = Anton Tetov
+	email = anton@tetov.se
+	signingkey = 2B4D0035AFF0F7DACE5B29D7337DDB574A8834DB
+
+[github]
+	user = tetov
+
+[gitlab]
+	user = tetov
