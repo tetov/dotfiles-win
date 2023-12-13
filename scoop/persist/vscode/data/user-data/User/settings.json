@@ -1,0 +1,212 @@
+{
+  "C_Cpp.clang_format_fallbackStyle": "Google",
+  "C_Cpp.vcpkg.enabled": false,
+  "[c]": {
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[makefile]": {
+    "editor.insertSpaces": false
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "bodil.prettier-toml",
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "cmake.configureOnEdit": false,
+  "cmake.configureOnOpen": false,
+  "cmake.generator": "",
+  "cmake.mingwSearchDirs": ["C:\\msys64\\mingw64\\bin"],
+  "debug.javascript.autoAttachFilter": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": "explicit"
+  },
+  "editor.fontFamily": "'FiraMono NF', 'Courier New', monospace",
+  "editor.lineNumbers": "relative",
+  "editor.minimap.enabled": false,
+  "editor.quickSuggestions": {
+    "comments": false,
+    "other": true,
+    "strings": false
+  },
+  "editor.renderWhitespace": "none",
+  "editor.rulers": [80],
+  "editor.scrollBeyondLastLine": false,
+  "editor.suggest.insertMode": "replace",
+  "editor.suggest.localityBonus": true,
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
+  "editor.wordWrap": "on",
+  "emmet.triggerExpansionOnTab": true,
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "afterDelay",
+  "files.insertFinalNewline": true,
+  "git.confirmSync": false,
+  "git.enableCommitSigning": true,
+  "git.fetchOnPull": true,
+  "git.followTagsWhenSync": true,
+  "git.suggestSmartCommit": false,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "prettier.enable": true,
+  "problems.showCurrentInStatus": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "redhat.telemetry.enabled": false,
+  "remote.SSH.remotePlatform": {
+    "auriga": "linux"
+  },
+  "search.exclude": {
+    "**/*.code-search": true,
+    "**/bower_components": true,
+    "**/node_modules": true,
+    "tags": true
+  },
+  "search.useGlobalIgnoreFiles": true,
+  "telemetry.telemetryLevel": "off",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.defaultProfile.linux": "tmux",
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.fontFamily": "'FiraMono NF', 'Courier New', monospace",
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "icon": "terminal-bash",
+      "path": "/usr/bin/bash"
+    },
+    "tmux": {
+      "path": "/usr/bin/tmux",
+      "args": ["new-session", "-A", "-s", "vscode-${workspaceFolderBasename}"]
+    },
+    "zsh": {
+      "icon": "terminal",
+      "path": "/usr/bin/zsh"
+    }
+  },
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+  "workbench.editor.focusRecentEditorAfterClose": false,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "workbench.panel.defaultLocation": "right",
+  "workbench.startupEditor": "newUntitledFile",
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\\Users\\tetov\\scoop\\shims\\nvim.exe",
+  "jupyter.askForKernelRestart": false,
+  "reorder-python-imports.args": ["--py310-plus"],
+  "notebook.lineNumbers": "on",
+  "explorer.openEditors.visible": 0,
+  "git.allowNoVerifyCommit": true,
+  "git.pruneOnFetch": true,
+  "remote.SSH.configFile": "${userHome}/.ssh/config",
+  "editor.formatOnSave": true,
+  "cSpell.userWords": [
+    "antontetov",
+    "bboxes",
+    "cloudamqp",
+    "compas",
+    "creds",
+    "darknet",
+    "desiered",
+    "dtype",
+    "Ehrensvärdsgatan",
+    "farmbot",
+    "frontmatter",
+    "imread",
+    "imwrite",
+    "isort",
+    "Johansson",
+    "jpgs",
+    "Kristianstad",
+    "linalg",
+    "loadmat",
+    "LOGDIR",
+    "Lund",
+    "mqtt",
+    "ndarray",
+    "paho",
+    "pngs",
+    "projs",
+    "scipy",
+    "tailwindcss",
+    "tetov",
+    "tobytes",
+    "unfiled",
+    "userdata",
+    "vattenhallen",
+    "Xiong",
+    "yolo",
+    "yolov",
+    "Ziliang",
+    "Ziliang's"
+  ],
+  "editor.inlineSuggest.enabled": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "python.condaPath": "C:\\Users\\tetov\\miniforge3\\condabin\\activate.bat",
+  "yaml.schemas": {
+    "file:///c%3A/Users/tetov/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i"
+  },
+  "cSpell.language": "en,sv",
+  "arduino.useArduinoCli": true,
+  "vim.camelCaseMotion.enable": true,
+  "vim.easymotion": true,
+  "vim.enableNeovim": true,
+  "vim.highlightedyank.enable": true,
+  "vim.hlsearch": true,
+  "vim.leader": ",",
+  "vim.smartRelativeLine": true,
+  "vim.useSystemClipboard": true,
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.formatOnType": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+    }
+  },
+  "markdown.marp.themes": [
+    "https://raw.githubusercontent.com/rnd195/my-marp-themes/live/gradient.css"
+  ],
+  "workbench.editor.empty.hint": "hidden",
+  "local-history.daysLimit": 0,
+  "local-history.path": "%AppData%/Nextcloud/Apps/editor-backups/vscode/%HOSTNAME%"
+}
